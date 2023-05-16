@@ -7,17 +7,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(237, 231, 244);
+    background-color: rgb(177, 111, 111);
 }
 
-a {
+/* a {
     text-decoration: none;
     color: black;
 }
 
 ul {
     list-style-type: none;
-}
+} */
 
 .morePicture {
     display: -webkit-box;
@@ -32,7 +32,7 @@ ul {
     padding: 4rem;
 }
 
-.morePicture button {
+/* .morePicture button {
     border-radius: 10px;
     padding: 0.25rem 0.5rem;
     font-size: 2rem;
@@ -40,12 +40,21 @@ ul {
     background-color: #1c58a7;
     color: white;
     cursor: pointer;
-}
+} */
 
+.baslik{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(212, 138, 138);
+    
+}
 h1 {
-    margin: 10px;
+    /* margin: 10px; */
     text-align: center;
-    color: blue;
+    color: rgb(138, 59, 59);
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+    font-size: 40px;
 }
 
 .pictures {
@@ -66,6 +75,7 @@ h1 {
     font-size: 1.2rem;
     padding: 1rem;
     width: 400px;
+    margin-top: 2rem;
    
     
 }
@@ -76,30 +86,31 @@ h1 {
 display: flex;
 flex-direction: column;
 
-
+border: 4px solid rgb(237, 18, 18);
+    border-radius: 15px; 
+    border: none;
+    background-color: white;
 }
 
 .pictures .picture .imageContainer img {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 100vh;
     -o-object-fit: cover;
     object-fit: cover;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 1px solid rgb(237, 231, 244);
-    border-radius: 5px
-;
-
-
+   
+   
+     
    
 }
 
 .pictures .picture .imageContainer img:hover {
     -webkit-transform: scale(1.25);
     transform: scale(1.25);
+  overflow: hidden;
+border-radius: 5px;
     
-  
-   
 }
 
 .pictures .picture .info {
@@ -111,7 +122,7 @@ flex-direction: column;
     justify-content: space-between;
     padding: 0.5rem;
    margin-top: 2rem;
-   color: blueviolet;
+   color: rgb(83, 34, 34);
 }
 
 /*# sourceMappingURL=style.css.map */

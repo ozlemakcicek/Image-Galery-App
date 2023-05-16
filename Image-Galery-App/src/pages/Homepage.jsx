@@ -5,8 +5,8 @@ import "../style.css";
 
 const Homepage = () => {
   return (
-    <div  >
-       <h1>Albums</h1>
+    <div className="baslik"  >
+       <h1> My Albums</h1>
         
     </div>
   )

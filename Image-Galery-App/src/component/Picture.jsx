@@ -3,7 +3,7 @@ import "../style.css";
 
 
 const Picture = ({ data }) => {
-  console.log("PictureComponent", data);
+  console.log( data);
   // console.log(data[0].photographer)
 
   return (
@@ -14,8 +14,8 @@ const Picture = ({ data }) => {
             <div className="picture">
           <div key={index} className="imageContainer">
             <img src={item.src.large} />
-            <div className="info">{item.photographer}</div> 
-          </div>
+          </div> 
+          <div className="info">{item.photographer}</div>
       </div>   
         ))} 
       </div>
